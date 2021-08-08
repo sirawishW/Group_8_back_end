@@ -65,6 +65,9 @@
     "lessons": {
       "via": "users_permissions_users",
       "collection": "lesson"
+    },
+    "user_highest_point": {
+      "type": "integer"
     }
   }
 }
