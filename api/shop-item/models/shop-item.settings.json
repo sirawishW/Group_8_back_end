@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "shop_items",
   "info": {
-    "name": "Shop Item",
+    "name": "Shop_Item",
     "description": ""
   },
   "options": {
