@@ -29,9 +29,6 @@
     },
     "details": {
       "type": "string"
-    },
-    "date": {
-      "type": "string"
     }
   }
 }
