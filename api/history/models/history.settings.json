@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "histories",
+  "info": {
+    "name": "History",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "point": {
+      "type": "integer"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "gain",
+        "loss"
+      ]
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "users_permissions_user": {
+      "via": "histories",
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "details": {
+      "type": "string"
+    }
+  }
+}
