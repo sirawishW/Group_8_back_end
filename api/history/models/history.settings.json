@@ -22,15 +22,15 @@
         "loss"
       ]
     },
-    "date": {
-      "type": "datetime"
-    },
     "users_permissions_user": {
       "via": "histories",
       "plugin": "users-permissions",
       "model": "user"
     },
     "details": {
+      "type": "string"
+    },
+    "date": {
       "type": "string"
     }
   }
