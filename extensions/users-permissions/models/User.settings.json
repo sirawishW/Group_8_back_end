@@ -71,8 +71,8 @@
       "collection": "history"
     },
     "quizzes": {
-      "collection": "quiz",
       "via": "users",
+      "collection": "quiz",
       "dominant": true
     }
   }

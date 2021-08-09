@@ -34,6 +34,9 @@
       "via": "quizzes",
       "plugin": "users-permissions",
       "collection": "user"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }
