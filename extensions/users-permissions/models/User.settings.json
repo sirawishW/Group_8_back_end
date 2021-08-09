@@ -69,11 +69,6 @@
     "histories": {
       "via": "users_permissions_user",
       "collection": "history"
-    },
-    "quizzes": {
-      "via": "users",
-      "collection": "quiz",
-      "dominant": true
     }
   }
 }
