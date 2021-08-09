@@ -65,6 +65,10 @@
     "lessons": {
       "via": "users_permissions_users",
       "collection": "lesson"
+    },
+    "histories": {
+      "via": "users_permissions_user",
+      "collection": "history"
     }
   }
 }

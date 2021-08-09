@@ -19,9 +19,9 @@
       "type": "text"
     },
     "users_permissions_users": {
+      "via": "lessons",
       "plugin": "users-permissions",
       "collection": "user",
-      "via": "lessons",
       "dominant": true
     },
     "cover_picture": {

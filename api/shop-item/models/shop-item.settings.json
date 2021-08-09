@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shop_items",
+  "info": {
+    "name": "Shop_Item",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "item_name": {
+      "type": "string",
+      "required": false
+    },
+    "point_cost": {
+      "type": "integer"
+    },
+    "item_description": {
+      "type": "text"
+    },
+    "src": {
+      "type": "string"
+    },
+    "number": {
+      "type": "integer"
+    }
+  }
+}
