@@ -24,6 +24,9 @@
     },
     "src": {
       "type": "string"
+    },
+    "number": {
+      "type": "integer"
     }
   }
 }
