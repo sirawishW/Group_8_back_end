@@ -30,8 +30,8 @@
     "answer": {
       "type": "string"
     },
-    "title": {
-      "type": "string"
+    "Set": {
+      "type": "integer"
     }
   }
 }

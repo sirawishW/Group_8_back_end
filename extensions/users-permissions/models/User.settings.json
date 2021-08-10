@@ -69,6 +69,10 @@
     "histories": {
       "via": "users_permissions_user",
       "collection": "history"
+    },
+    "set_quizs": {
+      "collection": "set-quiz",
+      "via": "users_permissions_user"
     }
   }
 }

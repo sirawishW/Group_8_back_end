@@ -22,6 +22,9 @@
         "loss"
       ]
     },
+    "date": {
+      "type": "datetime"
+    },
     "users_permissions_user": {
       "via": "histories",
       "plugin": "users-permissions",
